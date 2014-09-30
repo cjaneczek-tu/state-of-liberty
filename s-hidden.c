@@ -231,12 +231,6 @@ bool blinkingGreen(bool greenLight){
 	sleep(1);
 	printf("\nGREEN OFF!\n");
 	sleep(1);
-	printf("\nGREEN ON!\n");
-	sleep(1);
-	printf("\nGREEN OFF!\n");
-	sleep(1);
-	printf("\nGREEN ON!\n");
-	sleep(1);
 	greenLight = true;
 	return greenLight;
 }
@@ -252,13 +246,6 @@ bool blinkingYellow(bool yellowLight){
 	printf("\nYELLOW OFF!\n");	
 	sleep(1);
 	printf("\nYELLOW ON!\n");
-	sleep(1);
-	printf("\nYELLOW OFF!\n");
-	sleep(1);
-	printf("\nYELLOW ON!\n");
-	sleep(1);
-	printf("\nYELLOW OFF!\n");
-	sleep(1);
 	yellowLight = true;
 	return yellowLight;
 }
