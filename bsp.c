@@ -19,6 +19,7 @@ int main(int argsc, char* argv[])
 {
 	State state = GREEN;
 	Command command = PREPARE_TO_STOP;
+	int c = 0;
 	
 	while(1){
 		switch(state){
