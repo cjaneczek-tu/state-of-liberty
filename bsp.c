@@ -14,5 +14,6 @@ typedef enum {GREEN, BLINKING_GREEN, YELLOW, BLINKING_YELLOW, RED, RED_AND_YELLO
 typedef enum {WAIT, STANDBY, GO, PREPARE_TO_STOP, REPEAT, STOP, RESET, IDLE} command;
 int main(int argsc, char* argv[])
 {
+	printf("Hello world");
 	EXIT_SUCCESS;
 }
