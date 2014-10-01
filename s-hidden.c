@@ -1,5 +1,5 @@
 /*
-    Name of file	:	state-centric-hidden-transitions-traffic.c
+    Name of file	:	s-hidden.c
 	Author			:	Christian Janeczek <cjaneczek@tgm.ac.at>
 	Version			:	2014-09-30
 	Description		:	The state centric solution of the traffic light system, with hidden transitions
@@ -69,7 +69,7 @@ State outStating(Command c, State state, bool greenLight, bool yellowLight, bool
 				sleep(1);
 				greenLight = blinkingGreen(greenLight);
 				state = nextState(state);
-				greenLight = greenOff(greenLight);
+				// greenLight = greenOff(greenLight);
 				break;
 
 			case YELLOW:
