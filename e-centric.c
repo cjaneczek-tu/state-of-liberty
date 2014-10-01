@@ -70,6 +70,11 @@ int main(int argsc, char* argv[])
 				}
 			}
 			break;
+		case STOP:
+			state = nextState(state);
+			c=0;
+			command = WAIT;
+			break;
 		case WAIT:
 		    if(state==YELLOW){
 			printf("\nSTATE: YELLOW \n");
