@@ -1,5 +1,5 @@
 /*
-    Name of file	:	s-hidden.c
+    Name of file	:	e-centric.c
 	Author			:	Christian Janeczek <cjaneczek@tgm.ac.at>
 	Version			:	2014-10-01
 	Description		:	The event centric solution of the traffic light system
@@ -9,21 +9,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdbool.h>
-
- /* defining the required enums */
-typedef enum {GREEN, BLINKING_GREEN, YELLOW, BLINKING_YELLOW, RED, RED_AND_YELLOW} State;
-typedef enum {WAIT, STANDBY, GO, PREPARE_TO_STOP, REPEAT, STOP, RESET, IDLE} Command;
-
-/* method prototypes*/
-State nextState(State);
-bool greenOn(bool);
-bool yellowOn(bool);
-bool redOn(bool);
-bool greenOff(bool);
-bool yellowOff(bool);
-bool redOff(bool);
-bool blinkingGreen(bool);
-bool blinkingYellow(bool);  
+#include "functions.h" 
 
 int main(int argsc, char* argv[])
 {
@@ -141,139 +127,4 @@ int main(int argsc, char* argv[])
 		}
 	}
 	EXIT_SUCCESS;
-}
-
-/*
-* Taking the following state 
-*/
-State nextState(State s){
-	switch(s){
-		case GREEN:
-			s = BLINKING_GREEN;
-			break;
-
-		case BLINKING_GREEN:
-			s = YELLOW;
-			break;
-
-		case YELLOW:
-			s = RED;
-			break;
-
-		case RED:
-			s = RED_AND_YELLOW;
-			break;
-
-		case RED_AND_YELLOW:
-			s = GREEN;
-			break;
-
-		default:
-			s = RED;
-			break;
-	}
-	return s;
-}
-
-/*
-* Turns ON the green light
-*/
-bool greenOn(bool greenLight){
-	if(greenLight == false){
-		greenLight = true;
-		printf("\nGREEN ON!\n");
-		sleep(1);
-	}
-	return greenLight;	
-}
-
-/*
-* Turns OFF the green light
-*/
-bool greenOff(bool greenLight){
-	if(greenLight == true){
-		greenLight = false;
-		printf("\nGREEN OFF!\n");
-		sleep(1);
-	}
-	return greenLight;
-}
-
-/*
-* Turns ON the yellow light
-*/
-bool yellowOn(bool yellowLight){
-	if(yellowLight == false){
-		yellowLight = true;
-		printf("\nYELLOW ON!\n");
-		sleep(1);
-	}
-	return yellowLight;
-}
-
-/*
-* Turns OFF the yellow light
-*/
-bool yellowOff(bool yellowLight){
-	if(yellowLight == true){
-		yellowLight = false;
-		printf("\nYELLOW OFF!\n");
-		sleep(1);
-	}
-	return yellowLight;
-}
-
-/*
-* Turns ON the red light
-*/
-bool redOn(bool redLight){
-	if(redLight == false){
-		redLight = true;
-		printf("\nRED ON!\n");
-		sleep(1);
-	}
-	return redLight;
-}
-
-/*
-* Turns OFF the red light
-*/
-bool redOff(bool redLight){
-	if(redLight == true){
-		redLight = false;
-		printf("\nRED OFF!\n");
-		sleep(1);
-	}
-	return redLight;
-}
-
-/*
-* Frequently turning the green light ON and OFF again!
-*/
-bool blinkingGreen(bool greenLight){
-	printf("\nGREEN ON!\n");
-	sleep(1);
-	printf("\nGREEN OFF!\n");
-	sleep(1);
-	printf("\nGREEN ON!\n");
-	sleep(1);
-	printf("\nGREEN OFF!\n");
-	sleep(1);
-	greenLight = true;
-	return greenLight;
-}
-
-/*
-* Frequently turning the yellow light ON and OFF again!
-*/
-bool blinkingYellow(bool yellowLight){
-	printf("\nYELLOW ON!\n");
-	sleep(1);
-	printf("\nYELLOW OFF!\n");
-	sleep(1);
-	printf("\nYELLOW OFF!\n");	
-	sleep(1);
-	printf("\nYELLOW ON!\n");
-	yellowLight = true;
-	return yellowLight;
 }
