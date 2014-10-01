@@ -1,3 +1,5 @@
+all: prog-e-centric prog-s-hidden prog-s-centric
+
 prog-e-centric: functions.o e-centric.o
 		gcc -o prog-e-centric functions.o e-centric.o
 
@@ -22,3 +24,5 @@ s-hidden.o: s-hidden.c
 e-centric.o: e-centric.c
 		gcc -c e-centric.c
 
+clean:
+		rm prog-s-centric prog-s-hidden prog-e-centric
