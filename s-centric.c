@@ -1,5 +1,5 @@
 /*
-    Name of file	:	state-centric-traffic.c
+    Name of file	:	s-centric.c
 	Author			:	Christian Janeczek <cjaneczek@tgm.ac.at>
 	Version			:	2014-09-29
 	Description		:	The state centric solution of the traffic light system
