@@ -101,10 +101,6 @@ INSERT INTO bestellung VALUES (9, 6, 2);
 -- SELECT preiserhoehung(10);
 -- SELECT * FROM speise;
 
-CREATE FUNCTION preiserhoehung(INTEGER, INTEGER) RETURNS VOID AS 'UPDATE speise SET preis = preis + $1 WHERE preis <= (SELECT AVG(preis) FROM speise); 
-                                                                  UPDATE speise SET preis = preis * (100 + $2)/100 WHERE preis >= (SELECT AVG(preis) FROM speise);' LANGUAGE SQL;
-
-
 CREATE FUNCTION preiserhoehung(INTEGER, INTEGER, NUMERIC) RETURNS VOID AS 'UPDATE speise SET preis = preis * (100 + $2)/100 WHERE preis >= $3; 
                                                                   UPDATE speise SET preis = preis + $1 WHERE preis <= $3;' LANGUAGE SQL;
 
