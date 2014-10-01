@@ -153,3 +153,177 @@ Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
 Date:   Tue Sep 30 10:05:46 2014 +0200
 
     first state-centric prototype
+commit da9804f488950dc1acc8480b1c913d161bad0a78
+Merge: 6a30de3 04a5850
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 20:39:34 2014 +0200
+
+    Merge branch 'master' of https://github.com/cjaneczek-tgm/state-of-liberty
+
+commit 6a30de370c5febd9285bdcc4eac560fa87771f77
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 20:38:45 2014 +0200
+
+    documentation finalized
+
+commit 04a585066e50b1e9e4f2efe832597613d6b2e26f
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 10:40:48 2014 -0700
+
+    git log added
+
+commit 99541286aae3771e46de8fd964d55c913c57cfb2
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 19:34:55 2014 +0200
+
+    deleted false lines
+
+commit 4bc2c19f511f5b02337b7d4ca10d12f0ce6a7377
+Author: cjaneczek <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 19:32:32 2014 +0200
+
+    just for marm
+
+commit b67135892f7353ca73b780ab77d0a58d3cf291da
+Author: Chris <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 17:12:55 2014 +0200
+
+    Delete makefile
+
+commit 168f95f92583d880531728990b626713895746b5
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 17:12:25 2014 +0200
+
+    protocol added
+
+commit 337025ce0c3a4052716c81a747b714289ff930dd
+Author: cjaneczek <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 16:56:57 2014 +0200
+
+    targets: clean & all
+
+commit d240385923a2794154f5d5014a89b209653917ec
+Author: Chris <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 16:38:25 2014 +0200
+
+    Delete state-centric-traffic.c
+
+commit 61e39bb7fef78dbc75921819c13869f586ed7b84
+Author: Chris <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 16:38:11 2014 +0200
+
+    Delete a.out
+
+commit 4d9ad06dd446434332eb4ed895e58663c78fa6fd
+Author: cjaneczek <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 16:32:54 2014 +0200
+
+    Makefile added
+
+commit 509363546d9a94bb77fd6b39039a4e1da8012e11
+Author: cjaneczek <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 16:01:33 2014 +0200
+
+    redefined header and functions and shortened other .c files
+
+commit 22318357bbbd2187c58b7561554d0d90b75abb51
+Author: cjaneczek <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 10:44:40 2014 +0200
+
+    event-centric completed
+
+commit 2d36e4c342338f43399b94244cdb46ea77ac523d
+Author: cjaneczek <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 08:54:07 2014 +0200
+
+    event-centric completed
+
+commit ad2320a866044e85b061721c017d379d574d9706
+Author: cjaneczek <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 08:53:50 2014 +0200
+
+    state-hidden completed
+
+commit 18e1ae2da1a547ace898691749d2fb0cf7156211
+Author: cjaneczek <cjaneczek@student.tgm.ac.at>
+Date:   Wed Oct 1 08:53:10 2014 +0200
+
+    state-centric-completed
+
+commit 122424a0697b25c84a411240c685d87edc21d323
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 10:58:16 2014 -0700
+
+    event-centric added
+
+commit c6c2b41523e1e1097aa24157d8d2fd317105798d
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 10:41:43 2014 -0700
+
+    less blinks
+
+commit 0c4706165975f27da935e408d01cd4954bf62208
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 10:38:16 2014 -0700
+
+    centric & hidden renamed
+
+commit 816ebb3d87752a2299c78770b7ed3ac9a40f0994
+Author: Chris <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 13:12:44 2014 +0200
+
+    Delete stateCentric.c
+
+commit 70a1e1273525290c2c7710b3dc327907019ad816
+Author: Chris <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 13:12:35 2014 +0200
+
+    Delete bsp.c
+
+commit 77f0e4610d783a47edc3ef7ba1a4f74b74871248
+Author: Chris <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 13:12:28 2014 +0200
+
+    Delete state-centric.c
+
+commit 15904b7d30bb97401e85295d0b6c5bf8eb1f6a5c
+Author: cjaneczek-tgm <cjaneczek-tgm>
+Date:   Tue Sep 30 13:04:32 2014 +0200
+
+    state-centric-traffic.c
+
+commit e8d88e5dd6ab1e9e3b51ea6c7c2f40097daf2d5b
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 11:57:04 2014 +0200
+
+    compilen fuer wolfi
+
+commit 9fabe33518fde709571c67170a8940c0511fbe55
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 10:41:04 2014 +0200
+
+    c variable added
+
+commit 9c85fb93a1286cb93f120b345588148dc0318bd1
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 10:38:08 2014 +0200
+
+    while-slope successfully added
+
+commit 5fe80c0c76ffcb095f0d163155a687233e3be25b
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 10:15:35 2014 +0200
+
+    trying
+
+commit 5743050848afc763b22adb62c68bd28912a499ba
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 10:13:46 2014 +0200
+
+    examplefile for gcc
+
+commit 7cb3b9e56bdfb2a949e96500168feccb0b18daaf
+Author: cjaneczek-tgm <cjaneczek@student.tgm.ac.at>
+Date:   Tue Sep 30 10:05:46 2014 +0200
+
+    first state-centric prototype
